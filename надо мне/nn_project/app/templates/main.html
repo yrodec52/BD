@@ -1,0 +1,73 @@
+{% extends  "base.html" %}
+<title>{% block title %}Главная{% endblock %}</title>
+{% block style %}{% endblock %}
+{% block content %}
+<div class="wrapper">
+    <div class="applications">
+        <div class="application">
+            <p class="car_number">
+                госномер: qwerty
+            </p>
+            <p class="description">
+                описание: qwerty
+            </p>
+            <p class="status">
+                статус: новое
+            </p>
+            <div class="images">
+                <div class="image">
+                    <a href="">
+                        <img src="" height="50">
+                    </a>
+                </div>
+                <div class="image">
+                    <a href="">
+                        <img src="" height="50">
+                    </a>
+                </div>
+            </div>
+                <form method="post">
+                    <select>
+                        <option selected>Новое</option>
+                        <option>Подтверждено</option>
+                        <option>Отклонено</option>
+                    </select>
+                    <button type="submit">ОК</button>
+                </form>
+            <hr>
+        </div>
+        <div class="application">
+            <p class="car_number">
+                госномер: qwerty
+            </p>
+            <p class="description">
+                описание: qwerty
+            </p>
+            <p class="status">
+                статус: новое
+            </p>
+            <div class="images">
+                <div class="image">
+                    <a href="">
+                        <img src="" height="50">
+                    </a>
+                </div>
+                <div class="image">
+                    <a href="">
+                        <img src="" height="50">
+                    </a>
+                </div>
+            </div>
+                <form method="post">
+                    <select>
+                        <option selected>Новое</option>
+                        <option>Подтверждено</option>
+                        <option>Отклонено</option>
+                    </select>
+                    <button type="submit">ОК</button>
+                </form>
+            <hr>
+        </div>
+    </div>
+</div>
+{% endblock %}
